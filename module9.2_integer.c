@@ -17,7 +17,4 @@ int main(){
     printf("long int : Lower limit=%ld Higher limit=%ld\n",LONG_MIN,LONG_MAX);
     printf("long long  int : Lower limit=%lld Higher limit=%lld\n",LONG_LONG_MIN,LONG_LONG_MAX);
     printf("unsigned  int : Lower limit=%u Higher limit=%u\n",0,UINT_MAX);
-
-
-
 }
