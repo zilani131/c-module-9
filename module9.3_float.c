@@ -10,6 +10,8 @@ int main(){
 // we can use some function which is used when data type is double 
 //  if it it int data type it will convert it first then give floating value 
 int y=81;
-   printf("%lf %lf",pow(3,3),sqrt(y));
+float z=80.5;
+   printf("%lf %lf %lf %lf",pow(3,3),sqrt(y),ceil(z),floor(z));
+// floor will give the lower int num and ceil will give the upper int number
 //    we can find more function from math.h header file
 }
